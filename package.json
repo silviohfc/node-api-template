@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/silviohfc/node-api-template/issues"
   },
-  "homepage": "https://github.com/silviohfc/node-api-template#readme"
+  "homepage": "https://github.com/silviohfc/node-api-template#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
