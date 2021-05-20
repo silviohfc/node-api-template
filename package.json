@@ -7,7 +7,7 @@
     "*.js": "eslint --cache --fix"
   },
   "scripts": {
-    "start": "node src/server.js",
+    "start": "nodemon src/server.js",
     "prepare": "husky install"
   },
   "repository": {
@@ -29,6 +29,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.2",
     "husky": "^6.0.0",
-    "lint-staged": "^11.0.0"
+    "lint-staged": "^11.0.0",
+    "nodemon": "^2.0.7"
   }
 }
